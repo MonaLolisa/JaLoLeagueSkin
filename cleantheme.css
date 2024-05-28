@@ -22,14 +22,13 @@
 
 }
 
-/* Font:  */
-
-/* Find font you want on https://fonts.google.com/ and edit the following import accordingly: */
-@import url("https://fonts.googleapis.com/css?family=JetBrains+Mono");
+/* theme.css */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 :root {
-   --font-display: 'JetBrains Mono', sans-serif !important;
-   --font-body: 'JetBrains Mono', sans-serif !important;
+  /* override default League font */
+  --font-display: 'Aldrich', sans-serif !important;
+  --font-body: 'Aldrich', sans-serif !important;
 }
 
 /* Tweaks: */
