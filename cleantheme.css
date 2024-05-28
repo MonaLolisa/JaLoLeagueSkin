@@ -11,6 +11,15 @@
 
 /* Settings section */
 
+/* Font */
+
+@import url("https://fonts.googleapis.com/css?family=JetBrains+Mono");
+
+:root {
+   --font-display: 'JetBrains Mono', sans-serif !important;
+   --font-body: 'JetBrains Mono', sans-serif !important;
+}
+
 :root {
    /* Variables */
 
@@ -22,20 +31,23 @@
 
 }
 
-/* theme.css */
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
-
-:root {
-  /* override default League font */
-  --font-display: 'Aldrich', sans-serif !important;
-  --font-body: 'Aldrich', sans-serif !important;
-}
-
-/* Tweaks: */
-
 /* Show only Blue essence, hide riot-points  */
 .currency-rp-container-top-up-enabled {
-   display: none !important;
+   display:contents !important;
+   margin-bottom: -5px !important;
+}
+
+.currency-rp-top-up {
+   display:none !important;
+}
+
+.currency-container-stacked .currency-rp-top-up-enabled {
+    margin-bottom: -2px !important;
+}
+
+.currency-container-stacked {
+    position: relative;
+    left: -10px;   
 }
 
 /* Purple lobby buttons */
