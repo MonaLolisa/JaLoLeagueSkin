@@ -16,8 +16,8 @@
 @import url("https://fonts.googleapis.com/css?family=JetBrains+Mono");
 
 :root {
-   /* --font-display: 'JetBrains Mono', sans-serif !important; */
-   /* --font-body: 'JetBrains Mono', sans-serif !important; */
+   --font-display: 'JetBrains Mono', sans-serif !important;
+   --font-body: 'JetBrains Mono', sans-serif !important;
 }
 
 :root {
@@ -157,6 +157,17 @@
 }
 
 .summoner-xp-radial-container:hover {
+   opacity: 1;
+   transition: 0.2s !important;
+}
+
+/* Profile background change button, profile page */
+.style-profile-skin-picker-button {
+   opacity: 0;
+   transition: 0.2s !important;
+}
+
+.style-profile-skin-picker-button:hover {
    opacity: 1;
    transition: 0.2s !important;
 }
@@ -681,22 +692,11 @@ lol-uikit-full-page-modal>span>div {
 }
 
 .style-profile-skin-picker-button {
-    top: 94px !important;
+   top: 82px !important;
 }
 
 .style-profile-search-input-component {
-    position: absolute; !important;
-    right: 74px; !important;
-    top: 90px; !important;
-    width: 200px; !important;
-}
-
-.style-profile-summoner-name {
-    font-size: 15px !important;
-}
-
-.lol-social-actions-bar .friend-header {
-    display: none !important;
+   display: none;
 }
 
 .lobby-banner {
@@ -804,7 +804,5 @@ lol-uikit-full-page-modal>span>div {
 }
 
 
+
 /* End of general theming section */
-
-
-
