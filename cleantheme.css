@@ -90,17 +90,6 @@
    transition: 0.2s !important;
 }
 
-/* Teamfight Tactics button, top of screen */
-.menu_item_navbar_tft {
-   opacity: 0 !important;
-   transition: 0.2s !important;
-}
-
-.menu_item_navbar_tft:hover {
-   opacity: 1 !important;
-   transition: 0.2s !important;
-}
-
 /* Party invite menu, next to play button */
 .invite-info-panel-container {
    opacity: 0 !important;
