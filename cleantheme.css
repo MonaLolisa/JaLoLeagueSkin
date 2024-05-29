@@ -638,6 +638,7 @@ lol-social-availability-hitbox {
    top: 3.9px !important;
    width: 50px !important;
    height: 50px !important;
+   border-radius: 40% !important;
 }
 
 .stat-mod-perk-selector .perk-selector-text .perk-selector-description {
