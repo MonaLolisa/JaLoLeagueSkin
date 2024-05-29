@@ -27,9 +27,15 @@
    --dark-brown: #275061;
    --light-brown: #2c6398;
    --pale-brown: #52afd4;
-   --text: #b0c7d2;
+   --text: #ccdee6;
 
 }
+
+.player-name__force-gamename-tagline-order{
+    font-size: 14px !important;
+}
+
+
 
 /* disable top-up  */
 .currency-rp-container-top-up-enabled {
@@ -53,7 +59,7 @@
 
 /* Lobby invite buttons, in place of unfilled banners */
 .v2-banner-placeholder {
-   display: none !important;
+   /* display: none !important; */
 }
 
 
@@ -155,6 +161,16 @@
 }
 
 /* Profile background change button, profile page */
+.player-name-input-component {
+    opacity: 0;
+   transition: 0.2s !important;
+}
+.player-name-input-component:hover {
+   opacity: 1;
+   transition: 0.2s !important;
+}
+
+
 .style-profile-skin-picker-button {
    opacity: 0;
    transition: 0.2s !important;
@@ -164,6 +180,11 @@
    opacity: 1;
    transition: 0.2s !important;
 }
+
+.style-profile-skin-picker-button {
+   top: 94px !important;
+}
+
 
 /* End of hover mouse section  */
 
@@ -685,13 +706,7 @@ lol-uikit-full-page-modal>span>div {
    display: none !important;
 }
 
-.style-profile-skin-picker-button {
-   top: 82px !important;
-}
 
-.style-profile-search-input-component {
-   display: none;
-}
 
 .lobby-banner {
    height: 600px;
