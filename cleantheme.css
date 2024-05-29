@@ -830,6 +830,22 @@ lol-uikit-full-page-modal>span>div {
    background: none !important;
 }
 
+/* Arena Lobby */
+.multiteam-lobby-subteam-component {
+    background: none !important;
+    border: 3px solid #757575 !important;
+}
+    
+.multiteam-lobby-subteam-player-slot-component:not(:first-child):before {
+    background: linear-gradient(90deg,rgba(60,60,65,0),#757575 50%,rgba(60,60,65,0)) !important;
+}
 
+.player-slot__invite-button, .player-slot__swap-button {
+    background: linear-gradient(180deg,#b9b9b9,#4a4a4a) !important;
+    border: 1px solid rgba(1,10,19,.9) !important;
+}
 
+.player-slot__invite-icon, .player-slot__swap-icon {
+    background-color: #efefef !important;
+}
 /* End of general theming section */
