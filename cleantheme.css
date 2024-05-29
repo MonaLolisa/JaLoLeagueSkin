@@ -24,14 +24,14 @@
    /* Variables */
 
    /* Client colors: */
-   --dark-brown: #352a17;
-   --light-brown: #785a28;
-   --pale-brown: #c8aa6e;
-   --text: #e8dfcc;
+   --dark-brown: #275061;
+   --light-brown: #2c6398;
+   --pale-brown: #52afd4;
+   --text: #b0c7d2;
 
 }
 
-/* Show only Blue essence, hide riot-points  */
+/* disable top-up  */
 .currency-rp-container-top-up-enabled {
    display:contents !important;
    margin-bottom: -5px !important;
@@ -48,13 +48,6 @@
 .currency-container-stacked {
     position: relative;
     left: -10px;   
-}
-
-/* Purple lobby buttons */
-.find-match-button-container,
-.role-selectors-container,
-.animation-button-icon {
-   filter: hue-rotate(90deg);
 }
 
 
@@ -641,7 +634,7 @@ lol-social-availability-hitbox {
 }
 
 .xp-ring {
-   left: 3.95px !important;
+   left: 2.95px !important;
    top: 3.9px !important;
    width: 50px !important;
    height: 50px !important;
