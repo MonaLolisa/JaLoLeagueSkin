@@ -848,4 +848,11 @@ lol-uikit-full-page-modal>span>div {
 .player-slot__invite-icon, .player-slot__swap-icon {
     background-color: #efefef !important;
 }
+
+.rcp-fe-lol-event-hub-application {
+    object-fit: fill !important;
+    display: flex !important;
+    padding-top: 0px !important;
+    margin-top: 82px !important;
+}
 /* End of general theming section */
