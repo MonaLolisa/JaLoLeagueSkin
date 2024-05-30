@@ -1,8 +1,3 @@
-/* apply the acrylic effect */
-window.Effect.apply('unified', { color: "#000000DA" });
-
-
-/* Import only theme */
 // index.js
 function addCssLink(url) {
   const link = document.createElement('link')
@@ -16,10 +11,8 @@ window.addEventListener('load', () => {
   addCssLink('https://raw.githack.com/MonaLolisa/JaLoLeagueSkin/main/cleantheme.css')
 })
 
-/* Import shadow-dom obeserver-fixer-thing */
-import * as observer from './observer'
-import * as shadow_dom from './shadow-dom'
-
+/* apply the acrylic effect */
+window.Effect.apply('unified', { color: "#000000DA" });
 
 /* Code to edit the lobby info panel, leftmost panel, top of friend list */
 observer.subscribeToElementCreation('lol-parties-game-info-panel', (element) => {
@@ -32,4 +25,3 @@ observer.subscribeToElementCreation('lol-parties-game-invite', (element) => {
     shadow_dom.lobby_invite_css(element)
 
 })
-
