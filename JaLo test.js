@@ -13,7 +13,7 @@ function addCssLink(url) {
 }
 
 window.addEventListener('load', () => {
-  addCssLink('https://raw.githubusercontent.com/MonaLolisa/JaLoLeagueSkin/main/cleantheme.css')
+  addCssLink('https://raw.githack.com/MonaLolisa/JaLoLeagueSkin/main/cleantheme.css')
 })
 
 /* Import shadow-dom obeserver-fixer-thing */
