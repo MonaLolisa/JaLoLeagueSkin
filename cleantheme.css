@@ -673,11 +673,10 @@ lol-social-availability-hitbox {
 }
 
 .xp-ring {
-   left: 2.95px !important;
+   left: 3.95px !important;
    top: 3.9px !important;
    width: 50px !important;
    height: 50px !important;
-   border-radius: 40% !important;
 }
 
 .stat-mod-perk-selector .perk-selector-text .perk-selector-description {
