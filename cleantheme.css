@@ -632,7 +632,13 @@ html {
 }
 
 .player-history-stats-minions {
-   width: 50px !important;
+    margin: 0 0px;
+}
+
+.player-history-others {
+    float: none !important;
+    margin: 0 0 0 535px !important;
+    position: relative !important;
 }
 
 .player-history-stats-kills {
