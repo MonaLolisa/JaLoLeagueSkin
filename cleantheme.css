@@ -632,7 +632,7 @@ html {
 }
 
 .player-history-stats-minions {
-    margin: 0 0px;
+    margin: 0 0px !important;
 }
 
 .player-history-others {
