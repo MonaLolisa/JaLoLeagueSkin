@@ -631,19 +631,7 @@ html {
    background: none !important;
 }
 
-.player-history-stats-minions {
-    margin: 0 0px !important;
-}
 
-.player-history-others {
-    float: none !important;
-    margin: 0 0 0 535px !important;
-    position: relative !important;
-}
-
-.player-history-stats-kills {
-   width: unset !important;
-}
 
 .custom-game-tournament-code-container {
    display: none !important;
@@ -668,6 +656,7 @@ html {
 lol-social-availability-hitbox {
    margin: 5px 5px 0 0 !important;
 }
+
 
 .style-profile-masked-image {
    -webkit-mask: none !important;
@@ -702,6 +691,29 @@ lol-uikit-full-page-modal>span>div {
 
 .player-history-items {
    width: unset !important;
+}
+
+.player-history-stats-kills {
+   width: unset !important;
+}
+
+.match-details-team-list .player-history-stats {
+    left: 190px !important;
+    width: 280px !important;
+}
+
+.match-details-team-list .player-history-stats-minions {
+    margin: -10px !important;
+}
+
+.player-history-others {
+    float: unset !important;
+    margin: 0 0 0 535px !important;
+}
+
+.match-details-team-list .player-history-stats-gold {
+    width: 60px !important;
+    position: absolute !important;
 }
 
 .smoke-background-container {
