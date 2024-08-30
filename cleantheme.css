@@ -812,7 +812,7 @@ lol-uikit-full-page-modal>span>div {
 
 
 .collections-application {
-   text-align: -webkit-center !important;
+   /* text-align: -webkit-center !important; */
 }
 
 .champion-name-container {
@@ -824,8 +824,13 @@ lol-uikit-full-page-modal>span>div {
    background: none !important;
    border-top: none !important;
    position: relative !important;
-   top: -221px !important;
-   left: -40px !important;
+   top: -32px !important;
+   left: -7px !important;
+   transform: scale(80%);
+}
+
+.collections-application .champions-route .item-grid {
+    height: 95% !important;
 }
 
 .champion-mastery-badge-container {
